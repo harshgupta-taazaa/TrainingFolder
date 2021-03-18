@@ -1,0 +1,51 @@
+<div class="row ">
+    <div class="col-md-4">
+        <input type="number" class="form-control" [(ngModel)]="input1">
+    </div>
+    <div class="col-md-1">
+        <h3>{{operator}}</h3>
+    </div>
+    <div class="col-md-4">
+        <input type="number" class="form-control" [(ngModel)]="input2">
+    </div>
+    <div class="col-md-1">
+        <h3>=</h3>
+    </div>
+    <div class="col-md-2">
+        <h3>{{result}}</h3>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-md-4">
+        <button (click)="calculate('+')" class="btn btn-warning form-control " [style.height.px]="height" [style.width.px]="width" >+</button>
+    </div>
+    <div class="col-md-4">
+        <button (click)="calculate('-')"class="btn btn-warning form-control" [style.height.px]="height" [style.width.px]="width">-</button>
+    </div>
+    <div class="col-md-4">
+        <button (click)="calculate('*')"class="btn btn-warning form-control" [style.height.px]="height" [style.width.px]="width">*</button>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-md-4">
+        <button (click)="calculate('%')"class="btn btn-warning form-control" [style.height.px]="height" [style.width.px]="width">%</button>
+    </div>
+    <div class="col-md-4">
+        <button (click)="calculate('/')"class="btn btn-warning form-control" [style.height.px]="height" [style.width.px]="width">/</button>
+    </div>
+    <div class="col-md-4">
+        <input type="number" class="change" placeholder="Height" [(ngModel)]="height">
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-md-8">
+        <button (click)="calculate('c')"class="btn btn-warning form-control" [style.height.px]="height" [style.width.px]="width">Clear</button>
+    </div>
+    
+    <div class="col-md-4">
+        <input type="number" class="change" placeholder="Width" [(ngModel)]="width">
+    </div>
+</div>
