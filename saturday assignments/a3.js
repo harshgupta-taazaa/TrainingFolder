@@ -1,3 +1,4 @@
+//training
 var collection={
     a:1,
     b:2,
