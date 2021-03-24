@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\bin\Debug\netcoreapp3.1\Eventdelegatedemo.exe
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\bin\Debug\netcoreapp3.1\Eventdelegatedemo.deps.json
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\bin\Debug\netcoreapp3.1\Eventdelegatedemo.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\bin\Debug\netcoreapp3.1\Eventdelegatedemo.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\bin\Debug\netcoreapp3.1\Eventdelegatedemo.dll
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\bin\Debug\netcoreapp3.1\Eventdelegatedemo.pdb
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.dll
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.pdb
+C:\Users\S S INFOTECH\source\repos\Eventdelegatedemo\Eventdelegatedemo\obj\Debug\netcoreapp3.1\Eventdelegatedemo.genruntimeconfig.cache
