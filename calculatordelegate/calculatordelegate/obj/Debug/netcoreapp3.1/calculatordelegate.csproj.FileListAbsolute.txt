@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\bin\Debug\netcoreapp3.1\calculatordelegate.exe
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\bin\Debug\netcoreapp3.1\calculatordelegate.deps.json
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\bin\Debug\netcoreapp3.1\calculatordelegate.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\bin\Debug\netcoreapp3.1\calculatordelegate.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\bin\Debug\netcoreapp3.1\calculatordelegate.dll
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\bin\Debug\netcoreapp3.1\calculatordelegate.pdb
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.dll
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.pdb
+C:\Users\S S INFOTECH\source\repos\calculatordelegate\calculatordelegate\obj\Debug\netcoreapp3.1\calculatordelegate.genruntimeconfig.cache
