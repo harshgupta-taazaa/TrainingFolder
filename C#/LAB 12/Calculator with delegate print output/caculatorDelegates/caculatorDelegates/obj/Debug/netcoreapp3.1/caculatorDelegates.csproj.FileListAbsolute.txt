@@ -1,0 +1,13 @@
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\bin\Debug\netcoreapp3.1\caculatorDelegates.exe
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\bin\Debug\netcoreapp3.1\caculatorDelegates.deps.json
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\bin\Debug\netcoreapp3.1\caculatorDelegates.runtimeconfig.json
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\bin\Debug\netcoreapp3.1\caculatorDelegates.runtimeconfig.dev.json
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\bin\Debug\netcoreapp3.1\caculatorDelegates.dll
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\bin\Debug\netcoreapp3.1\caculatorDelegates.pdb
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.csprojAssemblyReference.cache
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.AssemblyInfoInputs.cache
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.AssemblyInfo.cs
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.csproj.CoreCompileInputs.cache
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.dll
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.pdb
+C:\Users\arpit.pandey\source\repos\caculatorDelegates\caculatorDelegates\obj\Debug\netcoreapp3.1\caculatorDelegates.genruntimeconfig.cache

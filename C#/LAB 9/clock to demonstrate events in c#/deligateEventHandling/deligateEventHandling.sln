@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deligateEventHandling", "deligateEventHandling\deligateEventHandling.csproj", "{9B082A3F-334E-4705-937C-59BC07373847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B082A3F-334E-4705-937C-59BC07373847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B082A3F-334E-4705-937C-59BC07373847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B082A3F-334E-4705-937C-59BC07373847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B082A3F-334E-4705-937C-59BC07373847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85325A9-E71E-4854-B11E-99C7080BE6BD}
+	EndGlobalSection
+EndGlobal

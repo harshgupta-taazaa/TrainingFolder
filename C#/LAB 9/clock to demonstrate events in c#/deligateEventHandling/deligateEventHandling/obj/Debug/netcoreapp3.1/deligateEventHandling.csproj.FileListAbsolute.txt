@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\bin\Debug\netcoreapp3.1\deligateEventHandling.exe
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\bin\Debug\netcoreapp3.1\deligateEventHandling.deps.json
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\bin\Debug\netcoreapp3.1\deligateEventHandling.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\bin\Debug\netcoreapp3.1\deligateEventHandling.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\bin\Debug\netcoreapp3.1\deligateEventHandling.dll
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\bin\Debug\netcoreapp3.1\deligateEventHandling.pdb
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.dll
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.pdb
+C:\Users\S S INFOTECH\source\repos\deligateEventHandling\deligateEventHandling\obj\Debug\netcoreapp3.1\deligateEventHandling.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\bin\Debug\netcoreapp3.1\calculatorlib.deps.json
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\bin\Debug\netcoreapp3.1\calculatorlib.dll
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\bin\Debug\netcoreapp3.1\calculatorlib.pdb
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\obj\Debug\netcoreapp3.1\calculatorlib.AssemblyInfoInputs.cache
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\obj\Debug\netcoreapp3.1\calculatorlib.AssemblyInfo.cs
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\obj\Debug\netcoreapp3.1\calculatorlib.csproj.CoreCompileInputs.cache
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\obj\Debug\netcoreapp3.1\calculatorlib.dll
+C:\Users\arpit.pandey\source\repos\calculatorlib\calculatorlib\obj\Debug\netcoreapp3.1\calculatorlib.pdb

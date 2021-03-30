@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\bin\Debug\netcoreapp3.1\deligatesrealtimedemo.exe
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\bin\Debug\netcoreapp3.1\deligatesrealtimedemo.deps.json
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\bin\Debug\netcoreapp3.1\deligatesrealtimedemo.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\bin\Debug\netcoreapp3.1\deligatesrealtimedemo.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\bin\Debug\netcoreapp3.1\deligatesrealtimedemo.dll
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\bin\Debug\netcoreapp3.1\deligatesrealtimedemo.pdb
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.dll
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.pdb
+C:\Users\S S INFOTECH\source\repos\deligatesrealtimedemo\deligatesrealtimedemo\obj\Debug\netcoreapp3.1\deligatesrealtimedemo.genruntimeconfig.cache
