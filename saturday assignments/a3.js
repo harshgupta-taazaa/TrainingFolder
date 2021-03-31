@@ -1,4 +1,3 @@
-//training
 var collection={
     a:1,
     b:2,
@@ -7,5 +6,7 @@ var collection={
 }
 for (var i in collection){
     console.log(`${i}:${collection[i]}`);
-
+}
+for (var i of collection){
+    console.log(i)
 }
