@@ -1,0 +1,12 @@
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\bin\Debug\netcoreapp3.1\core.dll
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\bin\Debug\netcoreapp3.1\core.pdb
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\S S INFOTECH\source\repos\Harsh\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
