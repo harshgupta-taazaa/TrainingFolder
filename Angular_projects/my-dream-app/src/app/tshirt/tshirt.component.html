@@ -1,0 +1,22 @@
+<div class="container">
+<div class="row">
+    <div class="col-md-2"></div>
+  
+  <div class ="col-md-4">
+<input type="number" [(ngModel)]='a'><br/>
+  </div>
+  <div class ="col-md-4">
+<input type="number" [(ngModel)]='b'><br/>
+</div>
+</div>
+<br/>
+<div class ="row">
+  <div class ="col-md-4">
+
+  </div>
+
+  <div class ="col-md-4">
+<img [src]="imgSource" (mouseenter)='changeTshirtMouseEnter()' (mouseleave)="changeTshirtMouseExit()" [style.height.px]='a'[style.width.px]='b' />
+</div>
+</div>
+</div>

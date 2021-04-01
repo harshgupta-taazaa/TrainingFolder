@@ -1,0 +1,19 @@
+<div class="container">
+<h1 class ="text-center">{{title}}</h1>
+<div class="row">
+  <div class ="col-md-3"></div>
+  <div class ="col-md-4">
+    <button (click)='showdbdemo()' class ="btn btn-danger" >Data Binding Demo</button>
+  </div>
+  <div class ="col-md-4">
+    <button (click)='showproductDemo()' class ='btn btn-warning'>products</button>
+  </div>
+</div>
+<hr/>
+<div class ="row">
+  <div class="col-md-12">
+  <app-tshirt *ngIf='showDataBinding'></app-tshirt>
+  <app-product *ngIf='showproductDemo1'></app-product>
+  </div>
+</div>
+</div>
