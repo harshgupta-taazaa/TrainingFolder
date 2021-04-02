@@ -29,6 +29,7 @@
                 <td>{{p.Price | currency:"INR" }}</td>
                 <td>{{p.ExpiryDate}}</td>
                 <td>{{p.Quantity}}</td>
+                
                 <td>
                     <ng-container *ngIf="p.isInStock; then instock else outofstock"></ng-container>
                     <ng-template #instock>

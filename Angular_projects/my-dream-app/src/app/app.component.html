@@ -1,19 +1,27 @@
 <div class="container">
-<h1 class ="text-center">{{title}}</h1>
-<div class="row">
-  <div class ="col-md-3"></div>
-  <div class ="col-md-4">
-    <button (click)='showdbdemo()' class ="btn btn-danger" >Data Binding Demo</button>
+  <h1 class ="text-center">{{title}}</h1>
+  <div class="row">
+    <div class ="col-md-4">
+      <button (click)='showdbdemo()' class ="btn btn-danger" >Data Binding Demo</button>
+    </div>
+    <div class ="col-md-4">
+      <button (click)='showproductDemo()' class ='btn btn-warning'>Products</button>
+    </div>
+    <div class ="col-md-4"> 
+      <button (click)='showPurchase()' class='btn btn-warning'>Master Products</button>
+    </div>
   </div>
-  <div class ="col-md-4">
-    <button (click)='showproductDemo()' class ='btn btn-warning'>products</button>
+  <hr/>
+  <div class ="row">
+    <div class="col-md-12">
+    <app-tshirt *ngIf='showDataBinding'></app-tshirt>
+    <app-product *ngIf='showproductDemo1'></app-product>
+    
   </div>
-</div>
-<hr/>
-<div class ="row">
-  <div class="col-md-12">
-  <app-tshirt *ngIf='showDataBinding'></app-tshirt>
-  <app-product *ngIf='showproductDemo1'></app-product>
   </div>
-</div>
-</div>
+  <div class="row">
+    <div class ="col-mg-12">
+      <app-purchase *ngIf='showpurchase'></app-purchase>
+      </div>
+  </div>
+  </div>

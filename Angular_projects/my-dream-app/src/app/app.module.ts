@@ -6,17 +6,26 @@ import { AppComponent } from './app.component';
 import { TshirtComponent } from './tshirt/tshirt.component';
 import { HelloComponent } from './hello/hello.component';
 import { ProductComponent } from './product/product.component';
+import { PurchaseComponent } from './purchase/purchase.component';
+import { ServeComponent } from './serve/serve.component';
+import { PurchaseorderComponent } from './purchaseorder/purchaseorder.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
     AppComponent,
     TshirtComponent,
     HelloComponent,
-    ProductComponent
+    ProductComponent,
+    PurchaseComponent,
+    ServeComponent,
+    PurchaseorderComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
