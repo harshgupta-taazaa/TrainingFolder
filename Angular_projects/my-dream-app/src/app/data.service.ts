@@ -1,0 +1,108 @@
+import { Injectable } from '@angular/core';
+import { IProduct } from './product/Iproduct';
+import { IPurchaseItem } from './purchase/IPurchaseItem';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class DataService {
+  
+
+  constructor() {}
+  getPurchase():IPurchaseItem[]{
+    return[{
+      Id:1,
+    Name:"rahul",
+    Date:"20-1-2020",
+    Vendorname:"GHANSHAYAM",
+    Items:[{
+      Id:1,
+        Title:"pen",
+        Price:234,
+        isInStock:true,
+        ExpiryDate:"09-12-2022",
+        Quantity:48,
+    }]
+  },
+  {
+    Id:2,
+  Name:"nikhil",
+  Date:"30-12-2020",
+  Vendorname:"RAM",
+  Items:[{
+    Id:2,
+      Title:"eraser",
+      Price:34,
+      isInStock:true,
+      ExpiryDate:"09-12-2022",
+      Quantity:48,
+  },{
+    Id:2,
+      Title:"chips",
+      Price:34,
+      isInStock:true,
+      ExpiryDate:"09-12-2022",
+      Quantity:48,
+  }]
+},
+{
+  Id:2,
+Name:"karan",
+Date:"12-12-2020",
+Vendorname:"shayam",
+Items:[{
+  Id:2,
+    Title:"pen",
+    Price:234,
+    isInStock:true,
+    ExpiryDate:"09-12-2022",
+    Quantity:48,
+}]
+},
+  ]
+  }
+  getProducts():IProduct[]{
+    return[
+      {
+        Id:1,
+        Title:"pen",
+        Price:234,
+        isInStock:true,
+        ExpiryDate:"09-12-2022",
+        Quantity:48,
+      },
+      {
+        Id:2,
+        Title:"pencil",
+        Price:24,
+        isInStock:true,
+        ExpiryDate:"10-1-2021",
+        Quantity:433
+      },
+      {
+        Id:3,
+        Title:"eraser",
+        Price:21,
+        isInStock:true,
+        ExpiryDate:"10-03-2023",
+        Quantity:43
+      },
+      {
+        Id:4,
+        Title:"sharpner",
+        Price:41,
+        isInStock:false,
+        ExpiryDate:"23-10-2024",
+        Quantity:0
+      },
+      {
+        Id:5,
+        Title:"book",
+        Price:2343,
+        isInStock:false,
+        ExpiryDate:"18-12-2020",
+        Quantity:0
+      },
+    ]
+  }
+}
