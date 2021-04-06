@@ -1,0 +1,37 @@
+<div class="container">
+  <h1 class="text-danger text-center">Data Binding Demo</h1>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-md-3"></div>
+    
+    <div class ="col-md-4">
+  <input type="number" [(ngModel)]='a'><br/>
+    </div>
+    <div class ="col-md-4">
+  <input type="number" [(ngModel)]='b'><br/>
+  </div>
+  </div>
+  <br/>
+  <div class ="row">
+    <div class ="col-md-4">
+  
+    </div>
+  
+    <div class ="col-md-4">
+  <img [src]="imgSource" (mouseenter)='changeTshirtMouseEnter()' (mouseleave)="changeTshirtMouseExit()" [style.height.px]='a'[style.width.px]='b' />
+  </div>
+  </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class ="col-md-8">
+        <h3>NOTE:In this demo we have used the concept of data binding . We have created two input fields i.e width and height
+          and we have used two way day binding to set the height and width of the displayed photo according to the client.
+          As well as we have also used the event binding to change the photo as the user points towards the photograph
+        </h3>
+    </div>
+</div>
