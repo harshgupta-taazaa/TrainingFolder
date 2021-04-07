@@ -1,10 +1,35 @@
 <div class="container">
     <h1 class="text-danger text-center">Component One</h1>
   </div>
-<div class="conatiner">
+<!-- <div class="conatiner">
     <div class='col-md-8'>
         <h2>Enter Price :</h2>
         <input  type ="number" [(ngModel)]='price' class ="form-control"> <hr/>
         <button (click)='setprice()' class="btn btn-danger"> Set Price</button>
     </div>
+</div> -->
+<div class="row justify-content-center">
+    
+    <div class="col-md-6 text-left bg-white rounded shadow py-3">
+<form (ngSubmit)='updateProduct()' [formGroup]='loginForm' novalidate="form">
+    <input formControlName='Id' type="text" class="form-control"/>
+
+    <input formControlName='Title' type="text" class="form-control"/>
+    <div class ="alert alert-danger" *ngIf="!loginForm?.get('Title')?.valid && loginForm?.get('Title')?.touched">
+       Item length should be greater than 3
+    </div>
+  
+    <input formControlName='Price' type="text" class="form-control"/>
+    <div class="alert alert-danger" *ngIf ="loginForm?.get('Price')?.dirty && loginForm?.get('Price')?.errors && loginForm?.get('Price')?.errors?.ageRange">
+        Price should be in between {{min}} to {{max}} 
+    </div>
+ 
+    <input formControlName='ExpiryDate' type="text" class="form-control"/>
+    <input formControlName='isInStock' type="text" class="form-control"/>
+    <input formControlName='Quantity' type="text" class="form-control"/>
+
+    <hr/>
+    <button type="submit" [disabled]='loginForm.invalid' class="btn btn-danger">Update Value In Component 2</button>
+</form>
+</div>
 </div>

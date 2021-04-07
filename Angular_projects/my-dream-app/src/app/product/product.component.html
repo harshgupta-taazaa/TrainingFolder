@@ -1,8 +1,18 @@
+<hr/><div class="row"><div class="col-md-2"></div>
+<div class ="col-md-1"><h2>Filter : </h2></div>
+<input type="text"[(ngModel)] ='search' placeholder="Filter by title">
+
+<input type="text"[(ngModel)] ='price' placeholder="Filter by Price">
+
+
+</div>
+<hr/>
 <div class="container">
     <h1 class="text-danger text-center">Structural Directive Demo</h1>
   </div>
-<div class ="row">
-    <div class="col-md-12">
+  <div class="row ">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 text-left bg-white rounded shadow py-3">
     <table class ="table">
         <thead>
             <tr>
@@ -27,7 +37,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let p of products">
+            <tr *ngFor="let p of products | productsearch:search | pricepipe:price">
                 <td>{{p.Id}}</td>
                 <td>{{p.Title}}</td>
                 <td>{{p.Price | currency:"INR" }}</td>
@@ -50,12 +60,9 @@
     </table>
 </div>
 </div>
-<div class="row">
-    <div class="col-md-2">
 
-    </div>
-    <div class ="col-md-8">
-        <h3>NOTE: In this demo we have used Structural Directives to display the data in the structural format 
-            in the Dom . We have also used a service to fetch the data  </h3>
-    </div>
-</div>
+<div class="footer">
+    <p>In this demo we have used Structural Directives to display the data in the structural format 
+        in the Dom . We have used a service to fetch the data as well as a custom pipe to filter the data on the 
+    basis of price and title</p>
+  </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AbstractControl, ValidatorFn } from '@angular/forms';
 import { DataService } from '../data.service';
 import {IProduct} from './Iproduct';
 
@@ -9,6 +10,10 @@ import {IProduct} from './Iproduct';
 })
 export class ProductComponent implements OnInit {
  products:IProduct[]=[];
+ search:string;
+ min=0;
+ max=10000;
+ price:number;
   constructor(private DataService:DataService) { }
 
   ngOnInit(): void {

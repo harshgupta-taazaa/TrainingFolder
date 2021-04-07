@@ -1,5 +1,5 @@
 import { ErrorHandler, NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -21,6 +21,11 @@ import { ChangecolorDirective } from './changecolor.directive';
 import { AdirectiveComponent } from './adirective/adirective.component';
 import { HarshComponent } from './harsh/harsh.component';
 import { ErrorhandlerComponent } from './errorhandler/errorhandler.component';
+import { LoginformComponent } from './loginform/loginform.component';
+import { ProductsearchPipe } from './productsearch.pipe';
+import { PricepipePipe } from './pricepipe.pipe';
+import { TemplateformComponent } from './templateform/templateform.component';
+
 
 
 @NgModule({
@@ -39,14 +44,18 @@ import { ErrorhandlerComponent } from './errorhandler/errorhandler.component';
     AdirectiveComponent,
     HarshComponent,
     ErrorhandlerComponent,
+    LoginformComponent,
+    ProductsearchPipe,
+    PricepipePipe,
+    TemplateformComponent,
    
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    BrowserAnimationsModule,MatExpansionModule,RouterModule,AppRoutingModule
+    BrowserAnimationsModule,MatExpansionModule,RouterModule,AppRoutingModule,ReactiveFormsModule
   ],
-  providers: [{provide:ErrorHandler , useClass:GlobalerrorhandlerService}],
+  providers: [{provide:ErrorHandler , useClass:ErrorHandler}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

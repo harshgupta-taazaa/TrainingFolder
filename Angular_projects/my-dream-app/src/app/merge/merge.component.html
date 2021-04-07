@@ -1,21 +1,19 @@
 <div class="container">
     <h1 class="text-danger text-center">Sharing Data Among Two Component</h1>
   </div>
-  <div class="col-md-4">
+  <div class="row justify-content-center"></div>
+  <div class="col-md-6 text-left bg-white rounded shadow py-3">
     <app-new-component *ngIf='showchild2'></app-new-component>
     </div>
 <br/><br/>    
-<div class="col-md-4">
+<div class="col-md-6 text-left bg-white rounded shadow py-3">
     <app-child2 *ngIf='showchild1'></app-child2>
 </div>
-<div class="col-md-4"></div>
 
-<div class="row">
-  <div class="col-md-2">
 
-  </div>
-  <div class ="col-md-8">
-      <h3>NOTE:This demo demonstrates the shaiing of data between two unrelated components using services .  </h3>
-  </div>
+
+
+<div class="footer">
+  <p>This demo demonstrates the sharing of data between two unrelated components using services.</p>
 </div>
 

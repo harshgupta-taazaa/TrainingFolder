@@ -25,6 +25,14 @@ export class TempService {
     
   }
 
+  updateProduct(p:IProduct){
+    this.data={
+      ...p
+    }
+    this.product.next(this.data);
+
+  }
+
 
   
 }
