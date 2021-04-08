@@ -27,6 +27,11 @@ import { LoginformComponent } from './loginform/loginform.component';
 import { ProductsearchPipe } from './productsearch.pipe';
 import { PricepipePipe } from './pricepipe.pipe';
 import { TemplateformComponent } from './templateform/templateform.component';
+import { ObservableComponent } from './observable/observable.component';
+import { Observable2Component } from './observable2/observable2.component';
+import { Observable3Component } from './observable3/observable3.component';
+import { Observable4Component } from './observable4/observable4.component';
+import { MainobservableComponent } from './mainobservable/mainobservable.component';
 
 
 
@@ -50,14 +55,20 @@ import { TemplateformComponent } from './templateform/templateform.component';
     ProductsearchPipe,
     PricepipePipe,
     TemplateformComponent,
+    ObservableComponent,
+    Observable2Component,
+    Observable3Component,
+    Observable4Component,
+    MainobservableComponent,
    
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    BrowserAnimationsModule,MatExpansionModule,RouterModule,AppRoutingModule,ReactiveFormsModule,MatTableModule
+    BrowserAnimationsModule,MatExpansionModule,RouterModule,AppRoutingModule,ReactiveFormsModule,
+    MatTableModule
   ],
-  providers: [{provide:ErrorHandler , useClass:ErrorHandler}],
+  providers: [{provide:ErrorHandler , useClass:GlobalerrorhandlerService}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
