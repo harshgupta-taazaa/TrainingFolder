@@ -20,4 +20,5 @@ export class ProductComponent implements OnInit {
     this.products=this.DataService.getProducts();
     console.log(this.products)
   }
+  displayedColumns: string[] = ['ID', 'TITLE', 'Price',  'ExpiryDate',  'Quantity' ];
 }

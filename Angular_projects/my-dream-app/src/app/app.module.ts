@@ -1,6 +1,8 @@
 import { ErrorHandler, NgModule } from '@angular/core';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatTableModule} from '@angular/material/table';
+
 
 import { AppComponent } from './app.component';
 import { TshirtComponent } from './tshirt/tshirt.component';
@@ -53,7 +55,7 @@ import { TemplateformComponent } from './templateform/templateform.component';
   imports: [
     BrowserModule,
     FormsModule,
-    BrowserAnimationsModule,MatExpansionModule,RouterModule,AppRoutingModule,ReactiveFormsModule
+    BrowserAnimationsModule,MatExpansionModule,RouterModule,AppRoutingModule,ReactiveFormsModule,MatTableModule
   ],
   providers: [{provide:ErrorHandler , useClass:ErrorHandler}],
   bootstrap: [AppComponent]
