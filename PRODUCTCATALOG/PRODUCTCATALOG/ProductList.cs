@@ -6,7 +6,6 @@ namespace PRODUCTCATALOG
 {
     public class ProductList
     {
-        Category C = new Category();
         public List<Product> ListOfItems = new List<Product>
         {
             new Product
@@ -93,9 +92,8 @@ namespace PRODUCTCATALOG
             string name = Console.ReadLine();
             Console.WriteLine("Enter ProductPrice");
             int ProductPrice = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Select a Category");
+            Console.WriteLine("Enter Category");
             string Cat = Console.ReadLine();
-
             Console.WriteLine("Enter Manufacturer");
             string manu = Console.ReadLine();
             ListOfItems.Add(new Product { Price = ProductPrice, ProductId = id, ProductName = name , CategoryName=Cat , Manufacturer=manu });
@@ -114,11 +112,24 @@ namespace PRODUCTCATALOG
         {
             Console.WriteLine("Search Product ");
             string search = Console.ReadLine();
-            int price = Int16.Parse(search);
+            Nullable<int> price = null;
+
+            try
+            {
+                int a=Int16.Parse(search);
+                price = a;
+            }
+            catch(Exception)
+            {
+
+            }
+            
+            
+            
 
             foreach (Product p in ListOfItems)
             {
-                if (search.ToLower()==p.ProductName || price<=p.Price)
+                if (search.ToLower()==p.ProductName || price <= p.Price)
                 {
                     Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : " + p.Price);
                 }

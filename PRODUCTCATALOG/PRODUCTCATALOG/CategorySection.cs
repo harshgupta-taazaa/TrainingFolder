@@ -8,7 +8,7 @@ namespace PRODUCTCATALOG
     {
         ProductList p1 = new ProductList();
 
-        public List<string> Categories = new List<string> {"fruits","stationary",};
+        public List<string> Categories = new List<string> {"fruits","stationary"};
         public void CategoryDetails()
         {
             foreach (Product p in p1.ListOfItems)
