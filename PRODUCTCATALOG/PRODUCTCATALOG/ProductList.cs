@@ -87,13 +87,14 @@ namespace PRODUCTCATALOG
         {
 
             //Console.WriteLine("Enter ProductID");
+            Console.WriteLine("Enter Category");
+            string Cat = Console.ReadLine();
             int id = generateId();
             Console.WriteLine("Enter ProductName");
             string name = Console.ReadLine();
             Console.WriteLine("Enter ProductPrice");
             int ProductPrice = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Category");
-            string Cat = Console.ReadLine();
+            
             Console.WriteLine("Enter Manufacturer");
             string manu = Console.ReadLine();
             ListOfItems.Add(new Product { Price = ProductPrice, ProductId = id, ProductName = name , CategoryName=Cat , Manufacturer=manu });
@@ -113,7 +114,6 @@ namespace PRODUCTCATALOG
             Console.WriteLine("Search Product ");
             string search = Console.ReadLine();
             Nullable<int> price = null;
-
             try
             {
                 int a=Int16.Parse(search);
@@ -123,15 +123,12 @@ namespace PRODUCTCATALOG
             {
 
             }
-            
-            
-            
-
             foreach (Product p in ListOfItems)
             {
                 if (search.ToLower()==p.ProductName || price <= p.Price)
                 {
-                    Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : " + p.Price);
+                    Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : "
+                        + p.Price+" Manufacturer : " + p.Manufacturer);
                 }
             }
         }

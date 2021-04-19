@@ -55,14 +55,15 @@ namespace PRODUCTCATALOG
 
         public void AddCategory()
         {
-            Console.WriteLine("enter a category name");
-            string s = Console.ReadLine();
-            Categories.Add(s);
-            Console.WriteLine("Available Categories");
-            foreach(string str in Categories)
-            {
-                Console.WriteLine(str);
-            }
+            
+            p1.AddItems();
+            p1.ShowItems();
+            //Categories.Add(s);
+            //Console.WriteLine("Available Categories");
+            //foreach(string str in Categories)
+            //{
+            //    Console.WriteLine(str);
+            //}
         }
     }
 }
