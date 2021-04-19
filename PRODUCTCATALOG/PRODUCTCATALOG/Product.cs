@@ -19,7 +19,7 @@ namespace PRODUCTCATALOG
         public override string ToString()
         {
             return " Id : " + ProductId + " Product Name : " + ProductName + " Price : " + Price + " Catogery :"
-                + CategoryName+ " Manufacturer :" + Manufacturer;
+                + CategoryName+ " Manufacturer :" + Manufacturer + " Short Code : " +  ShortCode;
 
         }
     }

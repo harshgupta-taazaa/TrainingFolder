@@ -14,7 +14,8 @@ namespace PRODUCTCATALOG
                 ProductName="rubber",
                 ProductId=1,
                 CategoryName="Stationary",
-                Manufacturer="Extramarks"
+                Manufacturer="Extramarks",
+                ShortCode="rb"
 
             },
             new Product
@@ -23,7 +24,8 @@ namespace PRODUCTCATALOG
                     ProductName="pen",
                     Price=20,
                     CategoryName="Stationary",
-                    Manufacturer="Cello"
+                    Manufacturer="Cello",
+                    ShortCode="pn"
                 },
                 new Product
                 {
@@ -31,7 +33,8 @@ namespace PRODUCTCATALOG
                     ProductName="pencil",
                     Price=10,
                     CategoryName="Stationary",
-                    Manufacturer="Natraj"
+                    Manufacturer="Natraj",
+                    ShortCode="pncl"
                 },
                  new Product
                 {
@@ -39,7 +42,8 @@ namespace PRODUCTCATALOG
                     ProductName="apple",
                     Price=100,
                     CategoryName="fruit",
-                    Manufacturer="Rakesh Fruits"
+                    Manufacturer="Rakesh Fruits",
+                    ShortCode="ap"
                 },
                  new Product
                 {
@@ -47,15 +51,17 @@ namespace PRODUCTCATALOG
                     ProductName="fan",
                     Price=2000,
                     CategoryName="Home Appliance",
-                    Manufacturer="Bajaj"
+                    Manufacturer="Bajaj",
+                    ShortCode="fn"
                 },
                  new Product
                 {
                     ProductId=6,
-                    ProductName="CHIPS",
+                    ProductName="Chips",
                     Price=20,
                     CategoryName="Fast Food",
-                    Manufacturer="Lays"
+                    Manufacturer="Lays",
+                    ShortCode="chip"
                 },
                  new Product
                 {
@@ -63,7 +69,8 @@ namespace PRODUCTCATALOG
                     ProductName="Samsung A50",
                     Price=20000,
                     CategoryName="Smart Phone",
-                    Manufacturer="Samsung"
+                    Manufacturer="Samsung",
+                    ShortCode="phn"
                 }
 
         };
@@ -94,11 +101,27 @@ namespace PRODUCTCATALOG
             string name = Console.ReadLine();
             Console.WriteLine("Enter ProductPrice");
             int ProductPrice = Convert.ToInt32(Console.ReadLine());
-            
+            Console.WriteLine("Enter ShortCode");
+            string Sc = ShortCodeOptimization();
+           
             Console.WriteLine("Enter Manufacturer");
             string manu = Console.ReadLine();
-            ListOfItems.Add(new Product { Price = ProductPrice, ProductId = id, ProductName = name , CategoryName=Cat , Manufacturer=manu });
+            ListOfItems.Add(new Product { Price = ProductPrice, ProductId = id, ProductName = name , CategoryName=Cat , Manufacturer=manu  ,  ShortCode = Sc});
 
+        }
+
+        public string ShortCodeOptimization()
+        {
+            string Sc = Console.ReadLine();
+            foreach (Product p in ListOfItems)
+            {
+                if (Sc == p.ShortCode)
+                {
+                    Console.WriteLine("Short Code must be unique");
+                    ShortCodeOptimization();
+                }
+            }
+            return Sc;
         }
 
         public void DeleteProduct()
@@ -128,7 +151,7 @@ namespace PRODUCTCATALOG
                 if (search.ToLower()==p.ProductName || price <= p.Price)
                 {
                     Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : "
-                        + p.Price+" Manufacturer : " + p.Manufacturer);
+                        + p.Price+" Manufacturer : " + p.Manufacturer +" Short Code : " + p.ShortCode);
                 }
             }
         }

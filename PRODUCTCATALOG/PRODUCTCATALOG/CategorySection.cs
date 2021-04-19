@@ -58,12 +58,7 @@ namespace PRODUCTCATALOG
             
             p1.AddItems();
             p1.ShowItems();
-            //Categories.Add(s);
-            //Console.WriteLine("Available Categories");
-            //foreach(string str in Categories)
-            //{
-            //    Console.WriteLine(str);
-            //}
+            
         }
     }
 }
