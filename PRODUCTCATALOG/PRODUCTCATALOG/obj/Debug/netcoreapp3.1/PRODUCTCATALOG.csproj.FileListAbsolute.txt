@@ -1,0 +1,13 @@
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\bin\Debug\netcoreapp3.1\PRODUCTCATALOG.exe
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\bin\Debug\netcoreapp3.1\PRODUCTCATALOG.deps.json
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\bin\Debug\netcoreapp3.1\PRODUCTCATALOG.runtimeconfig.json
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\bin\Debug\netcoreapp3.1\PRODUCTCATALOG.runtimeconfig.dev.json
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\bin\Debug\netcoreapp3.1\PRODUCTCATALOG.dll
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\bin\Debug\netcoreapp3.1\PRODUCTCATALOG.pdb
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.AssemblyInfoInputs.cache
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.AssemblyInfo.cs
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.csproj.CoreCompileInputs.cache
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.dll
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.pdb
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.genruntimeconfig.cache
+C:\Users\S S INFOTECH\source\repos\PRODUCTCATALOG\PRODUCTCATALOG\obj\Debug\netcoreapp3.1\PRODUCTCATALOG.csprojAssemblyReference.cache
