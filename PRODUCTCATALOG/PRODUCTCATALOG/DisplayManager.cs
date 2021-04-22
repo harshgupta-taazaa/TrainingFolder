@@ -76,23 +76,23 @@ namespace PRODUCTCATALOG
 
 
             string category = Console.ReadLine();
-            if (category == "a")
+            if (category.ToLower() == "a")
             {
                 categorymanager.AddCategory();
                 Level1();
             }
-            else if (category == "b")
+            else if (category.ToLower() == "b")
             {
                 categorymanager.CategoryDetails();
                 Level1();
 
             }
-            else if (category == "c")
+            else if (category.ToLower() == "c")
             {
                 categorymanager.DeleteCategory();
                 Level1();
             }
-            else if (category == "d")
+            else if (category.ToLower() == "d")
             {
                 categorymanager.SearchCategory();
                 Level1();

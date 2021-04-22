@@ -6,6 +6,7 @@ namespace PRODUCTCATALOG
 {
     public class ProductList
     {
+        int ProductPrice;
         public List<Product> ListOfItems = new List<Product>
         {
             new Product
@@ -99,8 +100,7 @@ namespace PRODUCTCATALOG
             int id = generateId();
             Console.WriteLine("Enter ProductName");
             string name = Console.ReadLine();
-            Console.WriteLine("Enter ProductPrice");
-            int ProductPrice = Convert.ToInt32(Console.ReadLine());
+            PriceValidation();
             Console.WriteLine("Enter ShortCode");
             string Sc = ShortCodeOptimization();
            
@@ -154,6 +154,24 @@ namespace PRODUCTCATALOG
                         + p.Price+" Manufacturer : " + p.Manufacturer +" Short Code : " + p.ShortCode);
                 }
             }
+        }
+
+        public void PriceValidation()
+        {
+            Console.WriteLine("Enter ProductPrice");
+            try
+            {
+                ProductPrice = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Price should be a number");
+                PriceValidation();
+            }
+
+
+            
+
         }
     }
 }
