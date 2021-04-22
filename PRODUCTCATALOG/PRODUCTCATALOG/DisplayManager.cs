@@ -6,7 +6,7 @@ namespace PRODUCTCATALOG
 {
     public class DisplayManager
     {
-        ProductList productmanager = new ProductList();
+        ProductList productmanager = new ProductList(); 
         CategorySection categorymanager = new CategorySection();
 
         public void Level1()
@@ -18,7 +18,7 @@ namespace PRODUCTCATALOG
             Console.WriteLine("Enter a key ....");
             string EnteredKey = Console.ReadLine();
 
-            switch (EnteredKey)
+            switch (EnteredKey.ToLower())
             {
                 case "a":
                     DisplayCategorySection();
@@ -54,7 +54,7 @@ namespace PRODUCTCATALOG
             Console.WriteLine("Enter a Key..");
             string EnterKey = Console.ReadLine();
 
-            switch (EnterKey)
+            switch (EnterKey.ToLower())
             {
                 case "a":
                     productmanager.AddItems();
@@ -99,7 +99,7 @@ namespace PRODUCTCATALOG
 
             string category = Console.ReadLine();
 
-            switch (category)
+            switch (category.ToLower())
             {
                 case "a":
                     categorymanager.AddCategory();

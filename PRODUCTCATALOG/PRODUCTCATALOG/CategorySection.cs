@@ -18,13 +18,20 @@ namespace PRODUCTCATALOG
         }
         public void SearchCategory()
         {
+            Console.WriteLine("Enter a category");
             string EnterCategory = Console.ReadLine();
+            bool found = false;
              foreach (Product p in ProductList.ListOfItems)
             {
-                if (EnterCategory == p.CategoryName)
+                if (EnterCategory.ToLower() == p.CategoryName.ToLower())
                 {
-                    Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : " + p.Price +" category:" + p.CategoryName);
+                    found = true;
+                    Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : " + p.Price +" category:" + p.CategoryName + " Short Code : " + p.ShortCode + " Description : " + p.Description);
                 }
+            }
+            if (!found)
+            {
+                Console.WriteLine("NO items related to that category");
             }
         }
         public void DeleteCategory()

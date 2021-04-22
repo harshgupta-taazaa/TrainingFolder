@@ -16,7 +16,8 @@ namespace PRODUCTCATALOG
                 ProductId=1,
                 CategoryName="Stationary",
                 Manufacturer="Extramarks",
-                ShortCode="rb"
+                ShortCode="rb",
+                Description="used for erasing"
 
             },
             new Product
@@ -26,7 +27,8 @@ namespace PRODUCTCATALOG
                     Price=20,
                     CategoryName="Stationary",
                     Manufacturer="Cello",
-                    ShortCode="pn"
+                    ShortCode="pn",
+                     Description="used for writing"
                 },
                 new Product
                 {
@@ -35,7 +37,8 @@ namespace PRODUCTCATALOG
                     Price=10,
                     CategoryName="Stationary",
                     Manufacturer="Natraj",
-                    ShortCode="pncl"
+                    ShortCode="pncl",
+                    Description="used for writing"
                 },
                  new Product
                 {
@@ -44,7 +47,8 @@ namespace PRODUCTCATALOG
                     Price=100,
                     CategoryName="fruit",
                     Manufacturer="Rakesh Fruits",
-                    ShortCode="ap"
+                    ShortCode="ap",
+                    Description="used for eating"
                 },
                  new Product
                 {
@@ -53,7 +57,8 @@ namespace PRODUCTCATALOG
                     Price=2000,
                     CategoryName="Home Appliance",
                     Manufacturer="Bajaj",
-                    ShortCode="fn"
+                    ShortCode="fn",
+                    Description="used to get fresh air"
                 },
                  new Product
                 {
@@ -62,7 +67,8 @@ namespace PRODUCTCATALOG
                     Price=20,
                     CategoryName="Fast Food",
                     Manufacturer="Lays",
-                    ShortCode="chip"
+                    ShortCode="chip",
+                    Description="used for eating"
                 },
                  new Product
                 {
@@ -71,7 +77,8 @@ namespace PRODUCTCATALOG
                     Price=20000,
                     CategoryName="Smart Phone",
                     Manufacturer="Samsung",
-                    ShortCode="phn"
+                    ShortCode="phn",
+                    Description="used for calling"
                 }
 
         };
@@ -103,10 +110,12 @@ namespace PRODUCTCATALOG
             PriceValidation();
             Console.WriteLine("Enter ShortCode");
             string Sc = ShortCodeOptimization();
-           
+            Console.WriteLine("Enter Product Description");
+            string ProductDescription = Console.ReadLine();
+
             Console.WriteLine("Enter Manufacturer");
             string manu = Console.ReadLine();
-            ListOfItems.Add(new Product { Price = ProductPrice, ProductId = id, ProductName = name , CategoryName=Cat , Manufacturer=manu  ,  ShortCode = Sc});
+            ListOfItems.Add(new Product { Price = ProductPrice, ProductId = id, ProductName = name , CategoryName=Cat , Manufacturer=manu  ,  ShortCode = Sc , Description = ProductDescription});
 
         }
 
@@ -159,7 +168,8 @@ namespace PRODUCTCATALOG
 
         public void SearchProduct()
         {
-            Console.WriteLine("Search Product ");
+            Console.WriteLine("Search Product by Product Name Or Product Price ");
+            Console.WriteLine("Enter a value");
             string search = Console.ReadLine();
             Nullable<int> price = null;
             try
@@ -171,13 +181,20 @@ namespace PRODUCTCATALOG
             {
 
             }
+            bool found = false;
             foreach (Product p in ListOfItems)
             {
-                if (search.ToLower()==p.ProductName || price <= p.Price)
+                if (search.ToLower() == p.ProductName.ToLower() || price <= p.Price)
                 {
+                    found = true;
                     Console.WriteLine(" Id : " + p.ProductId + " Product Name : " + p.ProductName + " Price : "
-                        + p.Price+" Manufacturer : " + p.Manufacturer +" Short Code : " + p.ShortCode);
+                        + p.Price + " Manufacturer : " + p.Manufacturer + " Short Code : " + p.ShortCode + " Description : " + p.Description)
+                        ;
                 }
+            }
+            if (!found)
+            {
+                Console.WriteLine("Item not found");
             }
         }
 
@@ -187,16 +204,17 @@ namespace PRODUCTCATALOG
             try
             {
                 ProductPrice = Convert.ToInt32(Console.ReadLine());
+                if (ProductPrice <= 0)
+                {
+                    Console.WriteLine("Price Should be greater than 0");
+                    PriceValidation();
+                }
             }
             catch (Exception)
             {
                 Console.WriteLine("Price should be a number");
                 PriceValidation();
             }
-
-
-            
-
         }
     }
 }
