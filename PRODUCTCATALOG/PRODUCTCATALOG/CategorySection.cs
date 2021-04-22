@@ -11,7 +11,7 @@ namespace PRODUCTCATALOG
         public List<string> Categories = new List<string> {"fruits","stationary"};
         public void CategoryDetails()
         {
-            foreach (Product p in productuser.ListOfItems)
+            foreach (Product p in ProductList.ListOfItems)
             {
                 Console.WriteLine("Id : "+ p.ProductId + "  Category : " + p.CategoryName);
             }
@@ -19,7 +19,7 @@ namespace PRODUCTCATALOG
         public void SearchCategory()
         {
             string EnterCategory = Console.ReadLine();
-             foreach (Product p in productuser.ListOfItems)
+             foreach (Product p in ProductList.ListOfItems)
             {
                 if (EnterCategory == p.CategoryName)
                 {
@@ -31,9 +31,10 @@ namespace PRODUCTCATALOG
         {
             Console.WriteLine("Enter Category to delete");
             string Delete = Console.ReadLine();
-            productuser.ListOfItems.RemoveWhere(x => x.CategoryName == Delete);
+            ProductList.ListOfItems.RemoveWhere(x => x.CategoryName == Delete);
             productuser.ShowItems();
         }
+
 
         public void AddCategory()
         {

@@ -7,7 +7,7 @@ namespace PRODUCTCATALOG
     public class ProductList
     {
         int ProductPrice;
-        public HashSet<Product> ListOfItems = new HashSet<Product>
+        public static HashSet<Product> ListOfItems = new HashSet<Product>
         {
             new Product
             {
