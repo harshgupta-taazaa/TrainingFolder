@@ -17,9 +17,6 @@ namespace PRODUCTCATALOG
             Console.WriteLine("\t c)- Exit the App!");
             Console.WriteLine("Enter a key ....");
             string EnteredKey = Console.ReadLine();
-
-            //p1.ListOfItems.Add(new Product { Price = 30, ProductId = 4, ProductName="book" });
-
             if (EnteredKey.ToLower() == "b")
 
             {

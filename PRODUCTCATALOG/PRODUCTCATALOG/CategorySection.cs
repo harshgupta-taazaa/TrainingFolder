@@ -29,28 +29,10 @@ namespace PRODUCTCATALOG
         }
         public void DeleteCategory()
         {
-            //Console.WriteLine("Enter Id to delete");
-            //int id = Convert.ToInt32(Console.ReadLine());
-            //p1.ListOfItems.Reverse();
-            //string Delete = Console.ReadLine();
-            //foreach (Product p in p1.ListOfItems)
-            //{
-            //    if (Delete == p.CategoryName)
-            //    {
-            //        Console.WriteLine(p.ProductId);
-            //        p1.ListOfItems.RemoveAt(3);
-
-            //    }
-
-
-            //}
-            
-            for (int i = productuser.ListOfItems.Count - 2; i >= 0; i--)
-            {
-                productuser.ListOfItems.RemoveAt(i);
-            }
-           
-                productuser.ShowItems();
+            Console.WriteLine("Enter Category to delete");
+            string Delete = Console.ReadLine();
+            productuser.ListOfItems.RemoveAll(x => x.CategoryName == Delete);
+            productuser.ShowItems();
         }
 
         public void AddCategory()
