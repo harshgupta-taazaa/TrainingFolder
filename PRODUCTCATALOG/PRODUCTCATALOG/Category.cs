@@ -6,7 +6,7 @@ namespace PRODUCTCATALOG
 {
     public class Category
     {
-        public int Id { get; set; }
+        public int ProductId { get; set; }
         public string CategoryName { get; set; }
         public string ShortCode { get; set; }
 

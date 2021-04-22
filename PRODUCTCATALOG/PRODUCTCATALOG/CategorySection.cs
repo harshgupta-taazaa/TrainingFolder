@@ -6,12 +6,12 @@ namespace PRODUCTCATALOG
 {
     public class CategorySection
     {
-        ProductList p1 = new ProductList();
+        ProductList productuser = new ProductList();
 
         public List<string> Categories = new List<string> {"fruits","stationary"};
         public void CategoryDetails()
         {
-            foreach (Product p in p1.ListOfItems)
+            foreach (Product p in productuser.ListOfItems)
             {
                 Console.WriteLine(p.CategoryName);
             }
@@ -19,7 +19,7 @@ namespace PRODUCTCATALOG
         public void SearchCategory()
         {
             string EnterCategory = Console.ReadLine();
-             foreach (Product p in p1.ListOfItems)
+             foreach (Product p in productuser.ListOfItems)
             {
                 if (EnterCategory == p.CategoryName)
                 {
@@ -45,19 +45,19 @@ namespace PRODUCTCATALOG
 
             //}
             
-            for (int i = p1.ListOfItems.Count - 2; i >= 0; i--)
+            for (int i = productuser.ListOfItems.Count - 2; i >= 0; i--)
             {
-                p1.ListOfItems.RemoveAt(i);
+                productuser.ListOfItems.RemoveAt(i);
             }
            
-                p1.ShowItems();
+                productuser.ShowItems();
         }
 
         public void AddCategory()
         {
             
-            p1.AddItems();
-            p1.ShowItems();
+            productuser.AddItems();
+            productuser.ShowItems();
             
         }
     }
