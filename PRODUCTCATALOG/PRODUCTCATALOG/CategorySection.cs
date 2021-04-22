@@ -13,7 +13,7 @@ namespace PRODUCTCATALOG
         {
             foreach (Product p in productuser.ListOfItems)
             {
-                Console.WriteLine(p.CategoryName);
+                Console.WriteLine("Id : "+ p.ProductId + "  Category : " + p.CategoryName);
             }
         }
         public void SearchCategory()
@@ -31,7 +31,7 @@ namespace PRODUCTCATALOG
         {
             Console.WriteLine("Enter Category to delete");
             string Delete = Console.ReadLine();
-            productuser.ListOfItems.RemoveAll(x => x.CategoryName == Delete);
+            productuser.ListOfItems.RemoveWhere(x => x.CategoryName == Delete);
             productuser.ShowItems();
         }
 

@@ -7,7 +7,7 @@ namespace PRODUCTCATALOG
     public class ProductList
     {
         int ProductPrice;
-        public List<Product> ListOfItems = new List<Product>
+        public HashSet<Product> ListOfItems = new HashSet<Product>
         {
             new Product
             {
@@ -126,10 +126,35 @@ namespace PRODUCTCATALOG
 
         public void DeleteProduct()
         {
-            Console.WriteLine("Enter Id to delete");
-            int id = Convert.ToInt32(Console.ReadLine());
-            ListOfItems.RemoveAt(id - 1);
-            ShowItems();
+            Console.WriteLine("\tDelete Item By : ?");
+            Console.WriteLine("\t1 - Delete Item By Id");
+            Console.WriteLine("\t2 - Delete Item By Name");
+            Console.WriteLine("\t3 - Delete Item By ShortCode");
+            string UserInput = Console.ReadLine();
+
+            if (UserInput == "1")
+            {
+                Console.WriteLine("Enter Product Id :");
+                int id = Convert.ToInt32(Console.ReadLine());
+                ListOfItems.RemoveWhere(x => x.ProductId == id);
+                //ListOfItems.RemoveAt(id - 1);
+                ShowItems();
+            }
+            else if (UserInput == "2")
+            {
+                Console.WriteLine("Enter Product Name :");
+                string Delete = Console.ReadLine();
+                ListOfItems.RemoveWhere(x => x.ProductName == Delete);
+                ShowItems();
+            }
+            else if (UserInput == "3")
+            {
+                Console.WriteLine("Enter ShortCode :");
+                string Delete = Console.ReadLine();
+                ListOfItems.RemoveWhere(x => x.ShortCode == Delete);
+                ShowItems();
+            }
+
         }
 
         public void SearchProduct()
