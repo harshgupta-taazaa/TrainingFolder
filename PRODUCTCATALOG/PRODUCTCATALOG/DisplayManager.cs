@@ -17,36 +17,32 @@ namespace PRODUCTCATALOG
             Console.WriteLine("\t c)- Exit the App!");
             Console.WriteLine("Enter a key ....");
             string EnteredKey = Console.ReadLine();
-            if (EnteredKey.ToLower() == "b")
 
+            switch (EnteredKey)
             {
-
-                DisplayProductSection();
-
-            }
-            else if (EnteredKey.ToLower() == "a")
-            {
-                DisplayCategorySection();
-            }
-            else if (EnteredKey.ToLower() == "c")
-            {
-                Console.Clear();
-            }
-            else
-            {
-                Console.WriteLine("You have Entered Wrong Key ......");
-                Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
-                string User = Console.ReadLine();
-                if (User == "1")
-                {
-                    Level1();
-                }
-                else
-                {
+                case "a":
+                    DisplayCategorySection();
+                    break;
+                case "b":
+                    DisplayProductSection();
+                    break;
+                case "c":
                     Console.Clear();
-                }
+                    break;
+                default:
+                    Console.WriteLine("You have Entered Wrong Key ......");
+                    Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
+                    string User = Console.ReadLine();
+                    if (User == "1")
+                    {
+                        Level1();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                    }
+                    break;
             }
-
         }
 
         public void DisplayProductSection()
@@ -57,41 +53,39 @@ namespace PRODUCTCATALOG
             Console.WriteLine("\t d. Search a Product");
             Console.WriteLine("Enter a Key..");
             string EnterKey = Console.ReadLine();
-            if (EnterKey.ToLower() == "a")
-            {
-                productmanager.AddItems();
-                productmanager.ShowItems();
-                Level1();
-            }
-            else if (EnterKey.ToLower() == "b")
-            {
-                productmanager.ShowItems();
-                Level1();
-            }
 
-            else if (EnterKey.ToLower() == "c")
+            switch (EnterKey)
             {
-                productmanager.DeleteProduct();
-                Level1();
-            }
-            else if (EnterKey.ToLower() == "d")
-            {
-                productmanager.SearchProduct();
-                Level1();
-            }
-            else
-            {
-                Console.WriteLine("You have Entered Wrong Key ......");
-                Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
-                string User = Console.ReadLine();
-                if (User == "1")
-                {
-                    DisplayProductSection();
-                }
-                else
-                {
-                    Console.Clear();
-                }
+                case "a":
+                    productmanager.AddItems();
+                    productmanager.ShowItems();
+                    Level1();
+                    break;
+                case "b":
+                    productmanager.ShowItems();
+                    Level1();
+                    break;
+                case "c":
+                    productmanager.DeleteProduct();
+                    Level1();
+                    break;
+                case "d":
+                    productmanager.SearchProduct();
+                    Level1();
+                    break;
+                default:
+                    Console.WriteLine("You have Entered Wrong Key ......");
+                    Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
+                    string User = Console.ReadLine();
+                    if (User == "1")
+                    {
+                        DisplayProductSection();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                    }
+                    break;
             }
         }
 
@@ -104,44 +98,41 @@ namespace PRODUCTCATALOG
 
 
             string category = Console.ReadLine();
-            if (category.ToLower() == "a")
-            {
-                categorymanager.AddCategory();
-                Level1();
-            }
-            else if (category.ToLower() == "b")
-            {
-                categorymanager.CategoryDetails();
-                Level1();
 
-            }
-            else if (category.ToLower() == "c")
+            switch (category)
             {
-                categorymanager.DeleteCategory();
-                Level1();
-            }
-            else if (category.ToLower() == "d")
-            {
-                categorymanager.SearchCategory();
-                Level1();
-            }
-            else
-            {
-                Console.WriteLine("You have Entered Wrong Key ......");
-                Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
-                string User = Console.ReadLine();
-                if (User == "1")
-                {
-                    DisplayCategorySection();
-                }
-                else
-                {
-                    Console.Clear();
-                }
-            }
+                case "a":
+                    categorymanager.AddCategory();
+                    Level1();
+                    break;
+                case "b":
+                    categorymanager.CategoryDetails();
+                    Level1();
 
-
-
+                    break;
+                case "c":
+                    categorymanager.DeleteCategory();
+                    Level1();
+                    break;
+                case "d":
+                    categorymanager.SearchCategory();
+                    Level1();
+                    break;
+                default:
+                    Console.WriteLine("You have Entered Wrong Key ......");
+                    Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
+                    string User = Console.ReadLine();
+                    if (User == "1")
+                    {
+                        DisplayCategorySection();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                    }
+                    break;
+            }
+            
         }
     }
 }
