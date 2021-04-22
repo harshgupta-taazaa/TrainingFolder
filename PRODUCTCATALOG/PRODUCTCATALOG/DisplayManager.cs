@@ -32,6 +32,20 @@ namespace PRODUCTCATALOG
             {
                 Console.Clear();
             }
+            else
+            {
+                Console.WriteLine("You have Entered Wrong Key ......");
+                Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
+                string User = Console.ReadLine();
+                if (User == "1")
+                {
+                    Level1();
+                }
+                else
+                {
+                    Console.Clear();
+                }
+            }
 
         }
 
@@ -65,6 +79,20 @@ namespace PRODUCTCATALOG
                 productmanager.SearchProduct();
                 Level1();
             }
+            else
+            {
+                Console.WriteLine("You have Entered Wrong Key ......");
+                Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
+                string User = Console.ReadLine();
+                if (User == "1")
+                {
+                    DisplayProductSection();
+                }
+                else
+                {
+                    Console.Clear();
+                }
+            }
         }
 
         public void DisplayCategorySection()
@@ -97,9 +125,23 @@ namespace PRODUCTCATALOG
                 categorymanager.SearchCategory();
                 Level1();
             }
+            else
+            {
+                Console.WriteLine("You have Entered Wrong Key ......");
+                Console.WriteLine("To Go Back PRESS 1 or any other key to exit app");
+                string User = Console.ReadLine();
+                if (User == "1")
+                {
+                    DisplayCategorySection();
+                }
+                else
+                {
+                    Console.Clear();
+                }
+            }
 
-        
-        
+
+
         }
     }
 }
